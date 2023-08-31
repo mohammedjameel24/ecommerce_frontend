@@ -1,4 +1,5 @@
 # totalitycorp-frontend-challenge
+
 ecommerce challenge @totalitycorp
 
 # TotalityCorp Frontend Challenge Documentation
@@ -18,11 +19,15 @@ The codebase follows a standard project structure, which is organized as follows
 │   ├── context ├── context.js ├── reducers.js
 
 │   ├── components ├── cart.js ├── filter.js ├── header.js ├── home.js ├── rating.js ├── singleproduct.js
-                    └── style.css  
+
+                   └── style.css  
+
 │   ├── App.js
+
 │   ├── App.css
 
 │   └── index.js
+
 │   └── index.css
 
 ├── public
@@ -35,10 +40,12 @@ The codebase follows a standard project structure, which is organized as follows
 
 ```
 
-- `src`: 
+- `src`:
 
   - `context`: ├── context.js :this code is a React component that creates a context object using createContext from the react library. It also imports useReducer hook from the same library.
-               └── reducers.js :this code exports two reducer functions: cartReducer and productReducer
+
+               └── reducers.js :this code exports two reducer functions: cartReducer and productReducer
+
   - `components`: Contains reusable React components used throughout the application.
 
   - `App.js`: The entry point of the application.
